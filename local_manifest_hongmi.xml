@@ -7,6 +7,7 @@
   <!-- CM removals -->
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_build" />
+  <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
   <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
@@ -25,6 +26,7 @@
   <project path="external/bluetooth/hcidump" name="YuanQY/android_external_bluetooth_hcidump"/>
   <project path="external/dbus" name="YuanQY/android_external_dbus"/>
   <project path="system/bluetooth" name="YuanQY/android_system_bluetooth" revision="cm-10.2"/>
+  <project path="system/core" name="YuanQY/android_system_core" />
   <project path="packages/services/Telephony" name="YuanQY/android_packages_services_Telephony"/>
   <!--project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.7" /-->
 
