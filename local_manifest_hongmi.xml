@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--remote name="omapzoom" fetch="git://git.omapzoom.org/" />
+  <remote name="gh" fetch="git://github.com/" /-->
+
+  <!-- CM removals -->
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
+  <remove-project name="CyanogenMod/android_packages_services_Telephony" />
+
+  <project path="frameworks/base" name="YuanQY/android_frameworks_base" />
+  <project path="device/xiaomi/hongmi" name="YuanQY/android_device_xiaomi_hongmi"/>
+  <project path="vendor/xiaomi/hongmi" name="YuanQY/android_vendor_xiaomi_hongmi"/>
+  <project path="external/bluetooth/bluez" name="YuanQY/android_external_bluetooth_bluez"/>
+  <project path="external/bluetooth/glib" name="YuanQY/android_external_bluetooth_glib"/>
+  <project path="external/bluetooth/hcidump" name="YuanQY/android_external_bluetooth_hcidump"/>
+	<project path="packages/services/Telephony" name="YuanQY/android_packages_services_Telephony"/>
+  <!--project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.7" /-->
+
+</manifest>
