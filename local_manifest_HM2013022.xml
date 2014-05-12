@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--remote name="omapzoom" fetch="git://git.omapzoom.org/" />
+  <remote name="gh" fetch="git://github.com/" /-->
+
+  <!-- CM removals -->
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_build" />
+  <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
+  <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
+  <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
+  <remove-project name="CyanogenMod/android_packages_services_Telephony" />
+
+  <project path="build" name="YuanQY/android_build" />
+  <project path="frameworks/base" name="YuanQY/android_frameworks_base" />
+  <project path="device/xiaomi/HM2013022" name="YuanQY/android_device_xiaomi_HM2013022"/>
+  <project path="vendor/xiaomi/HM2013022" name="YuanQY/android_vendor_xiaomi_HM2013022"/>
+  <project path="vendor/google" name="YuanQY/android_vendor_google"/>
+  <project path="packages/apps/Bluetooth" name="YuanQY/android_packages_apps_Bluetooth" />
+  <project path="packages/apps/Settings" name="YuanQY/android_packages_apps_Settings" />
+  <project path="external/bluetooth/bluez" name="YuanQY/android_external_bluetooth_bluez"/>
+  <project path="external/bluetooth/glib" name="YuanQY/android_external_bluetooth_glib"/>
+  <project path="external/bluetooth/hcidump" name="YuanQY/android_external_bluetooth_hcidump"/>
+  <project path="external/dbus" name="YuanQY/android_external_dbus"/>
+  <project path="system/bluetooth" name="YuanQY/android_system_bluetooth" revision="cm-10.2"/>
+  <project path="system/core" name="YuanQY/android_system_core" />
+  <project path="packages/services/Telephony" name="YuanQY/android_packages_services_Telephony"/>
+  <!--project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.7" /-->
+
+</manifest>
