@@ -6,6 +6,7 @@
 
   <!-- CM removals -->
   <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
@@ -13,9 +14,11 @@
   <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
   <remove-project name="CyanogenMod/android_packages_services_Telephony" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
 
   <project path="build" name="YuanQY/android_build" />
   <project path="frameworks/base" name="YuanQY/android_frameworks_base" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
   <project path="device/xiaomi/hongmi" name="YuanQY/android_device_xiaomi_hongmi"/>
   <project path="vendor/xiaomi/hongmi" name="YuanQY/android_vendor_xiaomi_hongmi"/>
   <project path="vendor/google" name="YuanQY/android_vendor_google"/>
@@ -28,6 +31,7 @@
   <project path="system/bluetooth" name="YuanQY/android_system_bluetooth" revision="cm-10.2"/>
   <project path="system/core" name="YuanQY/android_system_core" />
   <project path="packages/services/Telephony" name="YuanQY/android_packages_services_Telephony"/>
+  <project path="hardware/libhardware" name="YuanQY/android_hardware_libhardware" />
   <!--project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.7" /-->
 
 </manifest>
