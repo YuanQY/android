@@ -31,7 +31,7 @@
   <project path="external/dbus" name="YuanQY/android_external_dbus"/>
   <project path="system/bluetooth" name="YuanQY/android_system_bluetooth" revision="cm-10.2"/>
   <project path="system/core" name="YuanQY/android_system_core" />
-  <project path="system/core" name="YuanQY/android_system_extras" />
+  <project path="system/extras" name="YuanQY/android_system_extras" />
   <project path="packages/services/Telephony" name="YuanQY/android_packages_services_Telephony"/>
   <project path="hardware/libhardware" name="YuanQY/android_hardware_libhardware" />
   <!--project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.7" /-->
