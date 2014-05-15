@@ -18,7 +18,7 @@
 
   <project path="build" name="YuanQY/android_build" />
   <project path="frameworks/base" name="YuanQY/android_frameworks_base" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
+  <project path="frameworks/native" name="YuanQY/android_frameworks_native" />
   <project path="device/xiaomi/hongmi" name="YuanQY/android_device_xiaomi_hongmi"/>
   <project path="vendor/xiaomi/hongmi" name="YuanQY/android_vendor_xiaomi_hongmi"/>
   <project path="vendor/google" name="YuanQY/android_vendor_google"/>
