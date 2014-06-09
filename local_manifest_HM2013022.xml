@@ -12,6 +12,7 @@
   <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_system_extras" />
+  <remove-project name="CyanogenMod/android_system_netd" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
   <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
@@ -36,6 +37,7 @@
   <project path="system/bluetooth" name="YuanQY/android_system_bluetooth" revision="cm-10.2"/>
   <project path="system/core" name="YuanQY/android_system_core" />
   <project path="system/extras" name="YuanQY/android_system_extras" />
+  <project path="system/netd" name="YuanQY/android_system_netd" />
   <project path="packages/services/Telephony" name="YuanQY/android_packages_services_Telephony"/>
   <project path="hardware/libhardware" name="YuanQY/android_hardware_libhardware" />
   <!--project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.7" /-->
