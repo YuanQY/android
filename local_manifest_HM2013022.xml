@@ -19,6 +19,7 @@
   <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
   <remove-project name="CyanogenMod/android_packages_services_Telephony" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
 
   <project path="build" name="YuanQY/android_build" />
   <project path="frameworks/av" name="YuanQY/android_frameworks_av" />
@@ -40,6 +41,7 @@
   <project path="system/netd" name="YuanQY/android_system_netd" />
   <project path="packages/services/Telephony" name="YuanQY/android_packages_services_Telephony"/>
   <project path="hardware/libhardware" name="YuanQY/android_hardware_libhardware" />
+  <project path="hardware/libhardware_legacy" name="YuanQY/android_hardware_libhardware_legacy" />
   <!--project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.7" /-->
 
 </manifest>
