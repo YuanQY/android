@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <project path="vendor/samsung/hero2qltechn" name="YuanQY/proprietary_vendor_samsung_hero2qltechn" />
+ <project path="device/samsung/hero2qltechn" name="YuanQY/lineage_android_device_samsung_hero2qltechn" />
+</manifest>
